@@ -75,3 +75,14 @@ button:focus {
 .site-footer {
   padding: 2rem 0;
 }
+/* I changed the skip link colors so it is easier to read.
+AI prompt: Help me fix the low contrast on my skip link.
+I used this prompt to improve accessibility while keeping control of the design.
+*/
+
+.skip-link {
+  color: black;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
