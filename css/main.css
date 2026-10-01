@@ -65,7 +65,13 @@ form button {
   padding: 1rem;
   text-transform: uppercase;
 }
-
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 3px solid black;
+  outline-offset: 3px;
+}
 .site-footer {
   padding: 2rem 0;
 }
