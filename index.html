@@ -14,10 +14,17 @@
 
 <body>
   <!-- I added a skip link for keyboard users. -->
+   <!--
+AI prompt: Tell me which lines to change and what to change to improve accessibility.
+I used this help to fix the form labels, navigation accessibility, image text, and keyboard access.
+-->
 <a href="#main-content" class="skip-link">Skip to main content</a>
-  <div class="container">
+  <!-- I added Organization schema to describe Jam Box Studios.
+AI prompt: Help me add simple schema markup without JavaScript.
+I used this to improve the page structure and accessibility metadata. -->
+<div class="container" itemscope itemtype="https://schema.org/Organization"></div>
     <div class="site-header">
-      <h1>Jam Box Studios</h1>
+      <h1 itemprop="name">Jam Box Studios</h1>
       <nav class="main-nav" aria-label="Main navigation">
   <ul>
     <li><a href="#">Home</a></li>
